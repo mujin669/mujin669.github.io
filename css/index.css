@@ -2168,6 +2168,7 @@ blockquote footer cite:before {
 @media screen and (max-width: 768px) {
   #aside_content div:not(:last-child) {
     display: none;
+    font-size: 13px;
   }
 }
 .flink#article-container .post-cards {
@@ -2511,7 +2512,7 @@ figure.gallery-group .gallery-group-name:after {
 }
 #nav.full_page #site-info {
   position: absolute;
-  top: 43%;
+  top: 10%;
   padding: 0 0.5rem;
   width: 100%;
 }
@@ -3327,7 +3328,7 @@ figure.gallery-group .gallery-group-name:after {
   color: #9fefaf !important;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
-  font-size: 95%;
+  font-size: 80%;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > time {
   color: #858585;
