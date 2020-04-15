@@ -5511,7 +5511,7 @@ object-assign
     function (e, t) {
       e.exports = {
         nick: "昵称",
-        mail: "邮箱",
+        mail: "邮箱(必填)",
         link: "网址(http://)",
         sofa: "来发评论吧~",
         submit: "提交",
@@ -5576,8 +5576,6 @@ object-assign
       e.exports = {
         滑稽:
           "https://cdn.jsdelivr.net/gh/blogimg/picbed@master/2020/04/12/65590e49442ecf3e14a5d6cce1e0a3f5.png",
-        汗:
-          "https://cdn.jsdelivr.net/gh/blogimg/picbed@master/2020/04/12/fef8b39a6522d6fc380a1d43e3042d86.png",
         点赞: "https://cdn.jsdelivr.net/gh/drew233/cdn/kawayi.webp",
         傲娇: "https://cdn.jsdelivr.net/gh/drew233/cdn/20200409103906.webp",
         开心: "https://cdn.jsdelivr.net/gh/drew233/cdn/20200409104757.webp",
@@ -5586,7 +5584,6 @@ object-assign
         得瑟: "https://cdn.jsdelivr.net/gh/drew233/cdn/20200409130258.webp",
         揉左脸: "https://cdn.jsdelivr.net/gh/drew233/cdn/20200409130254.webp",
         揉右脸: "https://cdn.jsdelivr.net/gh/drew233/cdn/20200409130249.webp",
-        彩虹滑稽: "https://cdn.jsdelivr.net/gh/drew233/cdn/caihongtiao.webp",
         呆滞: "https://cdn.jsdelivr.net/gh/drew233/cdn/daizhi.webp",
         躲进小被子: "https://cdn.jsdelivr.net/gh/drew233/cdn/djxbz.webp",
         拽走小被子: "https://cdn.jsdelivr.net/gh/drew233/cdn/zzxbz.webp",
@@ -5594,10 +5591,6 @@ object-assign
         给我也整一个: "https://cdn.jsdelivr.net/gh/drew233/cdn/gwyzyg.webp",
         害怕: "https://cdn.jsdelivr.net/gh/drew233/cdn/hp.webp",
         怀疑: "https://cdn.jsdelivr.net/gh/drew233/cdn/20200412095314.webp",
-        草: "https://cdn.jsdelivr.net/gh/drew233/cdn/imgcao.webp",
-        花: "https://cdn.jsdelivr.net/gh/drew233/cdn/imghua.webp",
-        日: "https://cdn.jsdelivr.net/gh/drew233/cdn/imgri.webp",
-        叶: "https://cdn.jsdelivr.net/gh/drew233/cdn/imgye.webp",
         夹住: "https://cdn.jsdelivr.net/gh/drew233/cdn/kz.webp",
         目瞪狗呆: "https://cdn.jsdelivr.net/gh/drew233/cdn/20200412095243.webp",
         劈叉: "https://cdn.jsdelivr.net/gh/drew233/cdn/pc.webp",
