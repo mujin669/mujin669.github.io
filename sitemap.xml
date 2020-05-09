@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiabor.com/2020/03/29/hexo2/</loc>
+    
+    <lastmod>2020-05-07T05:43:45.658Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://xiabor.com/2020/02/24/deploy/</loc>
     
     <lastmod>2020-04-24T14:33:19.734Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://xiabor.com/2020/04/21/hexo3/</loc>
     
     <lastmod>2020-04-21T04:39:22.108Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xiabor.com/2020/03/29/hexo2/</loc>
-    
-    <lastmod>2020-04-20T14:09:45.815Z</lastmod>
     
   </url>
   
