@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiabor.com/2019/12/07/hexo1/</loc>
+    
+    <lastmod>2020-05-18T03:34:07.246Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiabor.com/2019/12/30/Tibet/</loc>
+    
+    <lastmod>2020-05-15T06:32:12.340Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiabor.com/count-down/index.html</loc>
+    
+    <lastmod>2020-05-14T00:58:44.690Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://xiabor.com/2020/03/29/hexo2/</loc>
     
     <lastmod>2020-05-07T05:43:45.658Z</lastmod>
@@ -12,13 +33,6 @@
     <loc>https://xiabor.com/2020/02/24/deploy/</loc>
     
     <lastmod>2020-04-24T14:33:19.734Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xiabor.com/2019/12/30/Tibet/</loc>
-    
-    <lastmod>2020-04-24T08:49:30.959Z</lastmod>
     
   </url>
   
@@ -135,13 +149,6 @@
   </url>
   
   <url>
-    <loc>https://xiabor.com/count-down/index.html</loc>
-    
-    <lastmod>2020-03-03T12:13:47.241Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://xiabor.com/dot/index.html</loc>
     
     <lastmod>2020-01-02T09:41:41.786Z</lastmod>
@@ -152,13 +159,6 @@
     <loc>https://xiabor.com/sakura/index.html</loc>
     
     <lastmod>2020-01-02T09:29:09.067Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xiabor.com/2019/12/07/hexo1/</loc>
-    
-    <lastmod>2020-01-02T03:21:16.980Z</lastmod>
     
   </url>
   
