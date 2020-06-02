@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>儿童节</title>
+  <title>端午节</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/response.css">
 <meta name="generator" content="Hexo 4.2.0"></head>
@@ -14,7 +14,7 @@
 <body>
   <div class="container">
     <h2>
-      <span><font face="楷体">儿童节节倒计时</font></span>
+      <span><font face="楷体">端午节节倒计时</font></span>
       <div id="Year">NA</div>
     </h2>
     <div class="countdouwn">
@@ -28,7 +28,7 @@
     // 自动为下一年
     function newYear() {
       var Y = new Date().getFullYear() + 0
-      var newDay = Y + '/6/1 00:00:00'
+      var newDay = Y + '/6/25 00:00:00'
       var countDate = new Date(newDay);
       var now = new Date().getTime()
       gap = countDate - now;
