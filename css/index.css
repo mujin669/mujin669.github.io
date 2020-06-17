@@ -1936,7 +1936,8 @@ blockquote footer cite:before {
   padding: 0;
   max-width: 100%;
   width: 100%;
-  height: 100%;
+  height: 70%;
+  border-radius: 3px;
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -o-transition: all 0.6s;
@@ -1961,7 +1962,7 @@ blockquote footer cite:before {
 #aside_content .card-recent-post .aside-recent-item > .aside-recent-post > a .aside-post-title .aside-post_title {
   padding-left: 10px;
   height: 40px;
-  line-height: 1rem;
+  line-height: 0.8rem;
   -webkit-line-clamp: 2;
 }
 #aside_content .card-recent-post .aside-recent-item > .aside-recent-post > a .aside-post-title .aside-post_title:hover {
@@ -2158,6 +2159,12 @@ blockquote footer cite:before {
   background: transparent;
   content: '';
   line-height: 0.3rem;
+}
+@media screen and (max-width: 768px) {
+  #aside_content div:not(:last-child) {
+    display: none;
+    font-size: 13px;
+  }
 }
 .flink#article-container .flink-desc {
   margin: 0.2rem 0 0.5rem;
@@ -3268,7 +3275,7 @@ _:future,
 }
 @media screen and (max-width: 768px) {
   .layout_page {
-    padding: 1rem 0.75px !important;
+    padding: 1rem !important;
   }
   .layout_page > div:first-child:not(.recent-posts) {
     padding: 1.8rem 0.7rem;
@@ -3331,6 +3338,7 @@ _:future,
   overflow: hidden;
   margin-top: 1rem;
   width: 100%;
+  border-radius: 8px;
 }
 #pagination .pagination {
   text-align: center;
@@ -3355,9 +3363,9 @@ _:future,
   position: absolute;
   width: 100%;
   height: 100%;
-  opacity: 0.4;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-  filter: alpha(opacity=40);
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -o-transition: all 0.6s;
@@ -3396,6 +3404,7 @@ _:future,
 #pagination .prev-post,
 #pagination .next-post {
   width: 50%;
+  border-radius: 8px;
 }
 #pagination .prev-post a,
 #pagination .next-post a {
@@ -4081,6 +4090,7 @@ p#div-border-bottom-purple {
   margin-bottom: 5px;
   font-weight: 700;
   font-size: 20px;
+  border-radius: 8px;
 }
 .relatedPosts .relatedPosts_item {
   position: relative;
@@ -4091,6 +4101,7 @@ p#div-border-bottom-purple {
   height: 200px;
   background: #000;
   vertical-align: bottom;
+  border-radius: 8px;
 }
 .relatedPosts .relatedPosts_item:hover .relatedPosts_cover {
   opacity: 0.8;
@@ -4126,6 +4137,7 @@ p#div-border-bottom-purple {
   -ms-transition: all 0.6s;
   transition: all 0.6s;
   object-fit: cover;
+  border-radius: 8px;
 }
 .relatedPosts .relatedPosts_main {
   position: absolute;
@@ -4133,6 +4145,7 @@ p#div-border-bottom-purple {
   padding: 0 1rem;
   width: 100%;
   color: #fff;
+  border-radius: 8px;
   -webkit-transform: translate(0, -50%);
   -moz-transform: translate(0, -50%);
   -o-transform: translate(0, -50%);
