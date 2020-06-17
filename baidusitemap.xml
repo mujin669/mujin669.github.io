@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://xiabor.com/2020/03/29/hexo2/</loc>
+    <lastmod>2020-06-17</lastmod>
+  </url>  <url>
+    <loc>https://xiabor.com/2020/06/12/Onemanage/</loc>
+    <lastmod>2020-06-15</lastmod>
+  </url>  <url>
     <loc>https://xiabor.com/2019/12/07/hexo1/</loc>
     <lastmod>2020-05-18</lastmod>
   </url>  <url>
     <loc>https://xiabor.com/2019/12/30/Tibet/</loc>
     <lastmod>2020-05-15</lastmod>
-  </url>  <url>
-    <loc>https://xiabor.com/2020/03/29/hexo2/</loc>
-    <lastmod>2020-05-07</lastmod>
   </url>  <url>
     <loc>https://xiabor.com/2020/02/24/deploy/</loc>
     <lastmod>2020-04-24</lastmod>
