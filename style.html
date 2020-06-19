@@ -1,0 +1,282 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>各种样式食用方法 | Xuexi's Blog</title><meta name="description" content="主题自带的样式note点击展开食用方法             default 提示块标签                          primary 提示块标签                          success 提示块标签                          info 提示块标签                          warning 提示块标签"><meta name="keywords" content="个人博客；学习"><meta name="author" content="雪曦,10294370@qq.com"><meta name="copyright" content="雪曦"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="https://xiabor.com/style.html"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin="crossorigin"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="preconnect" href="//zz.bdstatic.com"/><meta property="og:type" content="article"><meta property="og:title" content="各种样式食用方法"><meta property="og:url" content="https://xiabor.com/style.html"><meta property="og:site_name" content="Xuexi's Blog"><meta property="og:description" content="主题自带的样式note点击展开食用方法             default 提示块标签                          primary 提示块标签                          success 提示块标签                          info 提示块标签                          warning 提示块标签"><meta property="og:image" content="https://xiabor.com/img/post.jpg"><meta property="article:published_time" content="2020-06-19T07:26:33.000Z"><meta property="article:modified_time" content="2020-06-19T15:50:21.528Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'true'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 7 || hour >= 21
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 7 || hour >= 21
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="next" title="利用Onemanage搭建个人网盘" href="https://xiabor.com/ded5.html"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2d48389313488d2c8dc6272d98cf8d12";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-159912944-1', 'auto');
+ga('send', 'pageview');
+</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-center"},
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: true,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: true    
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true
+  }</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><link rel="stylesheet" href="/css/tag.css"><meta name="generator" content="Hexo 4.2.0"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">15</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">19</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">6</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-list-ul"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-cogs"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-universal-access"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fab fa-modx"></i><span> 兴趣</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/books/"><i class="fa-fw fa fa-book"></i><span> 读书</span></a></li><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> 电影</span></a></li><li><a class="site-page" href="/photo/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list-alt"></i><span> 单页</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/message/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言</span></a></li><li><a class="site-page" href="/fluid/"><i class="fa-fw fab fa-google-wallet"></i><span> 液体</span></a></li><li><a class="site-page" href="/fireworks/"><i class="fa-fw fab fa-yelp"></i><span> 烟花</span></a></li><li><a class="site-page" href="http://kd.xiabor.com" target="_blank" rel="noopener"><i class="fa-fw fab fa-mixcloud"></i><span> 云盘</span></a></li><li><a class="site-page" href="/sakura/"><i class="fa-fw fab fa-envira"></i><span> 樱花雨</span></a></li><li><a class="site-page" href="/count-down/"><i class="fa-fw far fa-clock"></i><span> 倒计时</span></a></li><li><a class="site-page" href="/dot/"><i class="fa-fw far fa-dot-circle"></i><span> 小圆点</span></a></li></ul></div></div></div></div><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#主题自带的样式"><span class="toc-number">1.</span> <span class="toc-text">主题自带的样式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#note"><span class="toc-number">1.1.</span> <span class="toc-text">note</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tabs"><span class="toc-number">1.2.</span> <span class="toc-text">Tabs</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#tag-hide"><span class="toc-number">1.3.</span> <span class="toc-text">tag-hide</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Button"><span class="toc-number">1.4.</span> <span class="toc-text">Button</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#自定义的样式"><span class="toc-number">2.</span> <span class="toc-text">自定义的样式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#仅展示效果及写法"><span class="toc-number">2.1.</span> <span class="toc-text">仅展示效果及写法</span></a></li></ol></li></ol></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/post.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">Xuexi's Blog</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-list-ul"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-cogs"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-universal-access"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fab fa-modx"></i><span> 兴趣</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/books/"><i class="fa-fw fa fa-book"></i><span> 读书</span></a></li><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> 电影</span></a></li><li><a class="site-page" href="/photo/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list-alt"></i><span> 单页</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/message/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言</span></a></li><li><a class="site-page" href="/fluid/"><i class="fa-fw fab fa-google-wallet"></i><span> 液体</span></a></li><li><a class="site-page" href="/fireworks/"><i class="fa-fw fab fa-yelp"></i><span> 烟花</span></a></li><li><a class="site-page" href="http://kd.xiabor.com" target="_blank" rel="noopener"><i class="fa-fw fab fa-mixcloud"></i><span> 云盘</span></a></li><li><a class="site-page" href="/sakura/"><i class="fa-fw fab fa-envira"></i><span> 樱花雨</span></a></li><li><a class="site-page" href="/count-down/"><i class="fa-fw far fa-clock"></i><span> 倒计时</span></a></li><li><a class="site-page" href="/dot/"><i class="fa-fw far fa-dot-circle"></i><span> 小圆点</span></a></li></ul></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">各种样式食用方法</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2020-06-19 15:26:33"><i class="fas fa-pencil-alt fa-fw"></i> 发表于 2020-06-19</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2020-06-19 23:50:21"><i class="fas fa-wrench fa-fw"></i> 更新于 2020-06-19</span></time></div><div class="meta-secondline"> <span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta__icon"></i><span>字数总计:</span><span class="word-count">1.9k</span><span class="post-meta__separator">|</span><i class="far fa-clock fa-fw post-meta__icon"></i><span>阅读时长: 9 分钟</span></span></div><div class="meta-thirdline"><span class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="far fa-eye fa-fw post-meta__icon"></i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"><span class="post-meta__separator">|</span><i class="far fa-comments fa-fw post-meta__icon"></i><span>评论数:</span><a href="/style.html#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/style.html" itemprop="commentCount"></span></a></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="主题自带的样式"><a href="#主题自带的样式" class="headerlink" title="主题自带的样式"></a>主题自带的样式</h2><h3 id="note"><a href="#note" class="headerlink" title="note"></a>note</h3><div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><a href="#test3-1">点击展开</a></li><li class="tab"><a href="#test3-2">食用方法</a></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><div class="note default">
+            <p>default 提示块标签</p>
+          </div>
+
+<div class="note primary no-icon">
+            <p>primary 提示块标签</p>
+          </div>
+
+<div class="note success">
+            <p>success 提示块标签</p>
+          </div>
+
+<div class="note info">
+            <p>info 提示块标签</p>
+          </div>
+
+<div class="note warning">
+            <p>warning 提示块标签</p>
+          </div>
+
+<div class="note danger">
+            <p>danger 提示块标签</p>
+          </div><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note default %&#125;</span><br><span class="line">default 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary no-icon %&#125;</span><br><span class="line">primary 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success %&#125;</span><br><span class="line">success 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info %&#125;</span><br><span class="line">info 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning %&#125;</span><br><span class="line">warning 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger %&#125;</span><br><span class="line">danger 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<h3 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h3><div class="tabs" id="效果演示"><ul class="nav-tabs"><li class="tab"><a href="#效果演示-1">效果演示 1</a></li><li class="tab"><a href="#效果演示-2">食用方法1</a></li><li class="tab"><a href="#效果演示-3">食用方法2</a></li><li class="tab"><a href="#效果演示-4">食用方法3</a></li><li class="tab"><a href="#效果演示-5">食用方法4</a></li><li class="tab"><a href="#效果演示-6">参数说明</a></li></ul><div class="tab-contents"><div class="tab-item-content" id="效果演示-1"><p><strong>整个Tab是食用方法4的效果，默认不展开</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&#123;% tabs tab-id %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab tab-name --&gt;</span><br><span class="line">内容1</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab tab-name --&gt;</span><br><span class="line">内容2</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+tab-id：必填，如果一个页面有多个 tabs 时，tab-id 不能重复。
+
+<p>tab-name：标签文本。</p><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="效果演示-2"><p><strong>预设展示第一个</strong>【默认】</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;% tabs test1 %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="效果演示-3"><p><strong>预设选择tabs,默认显示第三个</strong>。标题未定义则显示Tab1,Tab2,Tab3，默认显示第二个写法类似</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;% tabs test2, 3 %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="效果演示-4"><p><strong>自定义Tab名 + 只有icon + icon和Tab名</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;% tabs test4 %&#125;</span><br><span class="line">&lt;!-- tab 第一个Tab --&gt;</span><br><span class="line">**tab名字为第一个Tab**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab @fab fa-apple-pay --&gt;</span><br><span class="line">**只有图标 没有Tab名字**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab 炸弹@fas fa-bomb --&gt;</span><br><span class="line">**名字+icon**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="效果演示-5"><p><strong>没有预设值，默认不展开，点击才显示</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;% tabs test3, -1 %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="效果演示-6"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">&#123;% tabs Unique name, [index] %&#125;</span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br><span class="line"></span><br><span class="line">Unique name   : Unique name of tabs block tag without comma.</span><br><span class="line">                Will be used in #id&#39;s as prefix for each tab with their index numbers.</span><br><span class="line">                If there are whitespaces in name, for generate #id all whitespaces will replaced by dashes.</span><br><span class="line">                Only for current url of post&#x2F;page must be unique!</span><br><span class="line">[index]       : Index number of active tab.</span><br><span class="line">                If not specified, first tab (1) will be selected.</span><br><span class="line">                If index is -1, no tab will be selected. It&#39;s will be something like spoiler.</span><br><span class="line">                Optional parameter.</span><br><span class="line">[Tab caption] : Caption of current tab.</span><br><span class="line">                If not caption specified, unique name with tab index suffix will be used as caption of tab.</span><br><span class="line">                If not caption specified, but specified icon, caption will empty.</span><br><span class="line">                Optional parameter.</span><br><span class="line">[@icon]       : FontAwesome icon name (full-name, look like &#39;fas fa-font&#39;)</span><br><span class="line">                Can be specified with or without space; e.g. &#39;Tab caption @icon&#39; similar to &#39;Tab caption@icon&#39;.</span><br><span class="line">                Optional parameter.</span><br></pre></td></tr></table></figure><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+
+
+<h3 id="tag-hide"><a href="#tag-hide" class="headerlink" title="tag-hide"></a>tag-hide</h3><div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><a href="#test3-1">inline</a></li><li class="tab"><a href="#test3-2">block</a></li><li class="tab"><a href="#test3-3">Toggle</a></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p>哪个英文字母最酷？ <span class="hide-inline"><button class="hide-button button--animated" style="background-color: #FF7242;color: #fff">查看答案<br>  </button><span class="hide-content">因为西装裤(C装酷)</span></span></p>
+<p>门里站着一个人? <span class="hide-inline"><button class="hide-button button--animated" style="">Click<br>  </button><span class="hide-content">闪</span></span></p>
+<p><strong>在文本里面添加按钮隐藏内容，只限文字</strong></p>
+<p>( content不能包含英文逗号，可用&sbquo;)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;% hideInline content,display,bg,color %&#125;</span><br><span class="line"></span><br><span class="line">哪个英文字母最酷？ &#123;% hideInline 因为西装裤(C装酷),查看答案,#FF7242,#fff %&#125;</span><br><span class="line"></span><br><span class="line">门里站着一个人? &#123;% hideInline 闪 %&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>content: 文本内容</p>
+</li>
+<li><p>display: 按钮显示的文字(可选)</p>
+</li>
+<li><p>bg: 按钮的背景颜色(可选)</p>
+</li>
+<li><p>color: 按钮文字的颜色(可选)</p>
+</li>
+</ul><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p>查看答案</p>
+<div class="hide-block"><button class="hide-button button--animated" style="">查看答案
+    </button><span class="hide-content"><p>傻子，怎么可能有答案</p></span></div>
+
+
+<p><strong><code>block</code>独立的block隐藏内容，可以隐藏很多内容，包括图片，代码块等等</strong><br>( display 不能包含英文逗号，可用&sbquo;)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;% hideBlock display,bg,color %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endhideBlock %&#125;</span><br><span class="line"></span><br><span class="line">查看答案</span><br><span class="line">&#123;% hideBlock 查看答案 %&#125;</span><br><span class="line">傻子，怎么可能有答案</span><br><span class="line">&#123;% endhideBlock %&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>content: 文本内容</p>
+</li>
+<li><p>display: 按钮显示的文字(可选)</p>
+</li>
+<li><p>bg: 按钮的背景颜色(可选)</p>
+</li>
+<li><p>color: 按钮文字的颜色(可选)</p>
+</li>
+</ul><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><div class="hide-toggle" ><div class="hide-button toggle-title" style=""><i class="fas fa-caret-right fa-fw"></i><span>点击查看说明</span></div>
+    <div class="hide-content"><p>此部分默认不展开，可以是代码块</p></div></div>
+
+<p><strong>如果需要展示的内容太多，可以把它隐藏在收缩框里，需要时再把它展开。</strong></p>
+<p>( display 不能包含英文逗号，可用&sbquo;)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;% hideToggle display,bg,color %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endhideToggle %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% hideToggle Butterfly安装方法 %&#125;</span><br><span class="line">此部分默认不展开，可以是代码块</span><br><span class="line"></span><br><span class="line">&#123;% endhideToggle %&#125;</span><br></pre></td></tr></table></figure><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<h3 id="Button"><a href="#Button" class="headerlink" title="Button"></a>Button</h3><div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><a href="#test3-1">效果演示1</a></li><li class="tab"><a href="#test3-2">效果演示2</a></li><li class="tab"><a href="#test3-3">效果演示3</a></li><li class="tab"><a href="#test3-4">演示效果4</a></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>看吧，tag里的Button出问题了</strong>，检查多次Button的css并没有问题，tag使用第一种Button格式会出问题。所以演示放在了下面<br>This is my homepage, click the button <a class="btn-beautify button--animated " href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage"><br>   Homepage </a><br>This is my homepage, click the button <a class="btn-beautify button--animated " href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage"><br>  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a><br>This is my homepage, click the button <a class="btn-beautify button--animated outline" href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage"><br>   Homepage </a><br>This is my homepage, click the button <a class="btn-beautify button--animated outline" href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage"><br>  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a><br>This is my homepage, click the button <a class="btn-beautify button--animated larger" href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage"><br>  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">This is my homepage, click the button &#123;% btn &#39;https:&#x2F;&#x2F;837837.xyz&#39;,Homepage %&#125;</span><br><span class="line">This is my homepage, click the button &#123;% btn &#39;https:&#x2F;&#x2F;837837.xyz&#39;,Homepage,far fa-hand-point-right %&#125;</span><br><span class="line">This is my homepage, click the button &#123;% btn &#39;https:&#x2F;&#x2F;837837.xyz&#39;,Homepage,,outline %&#125;</span><br><span class="line">This is my homepage, click the button &#123;% btn &#39;https:&#x2F;&#x2F;837837.xyz&#39;,Homepage,far fa-hand-point-right,outline %&#125;</span><br><span class="line">This is my homepage, click the button &#123;% btn &#39;https:&#x2F;&#x2F;837837.xyz&#39;,Homepage,far fa-hand-point-right,larger %&#125;</span><br></pre></td></tr></table></figure><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><a class="btn-beautify button--animated block" href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated block center larger" href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated block right outline larger" href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% btn &#39;https:&#x2F;&#x2F;837837.xyz&#39;,Homepage,far fa-hand-point-right,block %&#125;</span><br><span class="line">&#123;% btn &#39;https:&#x2F;&#x2F;837837.xyz&#39;,Homepage,far fa-hand-point-right,block center larger %&#125;</span><br><span class="line">&#123;% btn &#39;https:&#x2F;&#x2F;837837.xyz&#39;,Homepage,far fa-hand-point-right,block right outline larger %&#125;</span><br></pre></td></tr></table></figure><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><a class="btn-beautify button--animated larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated blue larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated pink larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated red larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated purple larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated orange larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated green larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,larger %&#125;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,blue larger %&#125;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,pink larger %&#125;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,red larger %&#125;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,purple larger %&#125;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,orange larger %&#125;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,green larger %&#125;</span><br></pre></td></tr></table></figure><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-4"><div class="btn-center">
+<a class="btn-beautify button--animated outline larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated outline blue larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated outline pink larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated outline red larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated outline purple larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated outline orange larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+<a class="btn-beautify button--animated outline green larger" href="http://blog.xiabor.com" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a>
+</div>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class&#x3D;&quot;btn-center&quot;&gt;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,outline larger %&#125;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,outline blue larger %&#125;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,outline pink larger %&#125;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,outline red larger %&#125;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,outline purple larger %&#125;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,outline orange larger %&#125;</span><br><span class="line">&#123;% btn &#39;http:&#x2F;&#x2F;blog.xiabor.com&#39;,Homepage,far fa-hand-point-right,outline green larger %&#125;</span><br><span class="line">&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<p>正常的演示效果1：</p>
+<p>This is my homepage, click the button <a class="btn-beautify button--animated " href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage">
+   Homepage </a><br>This is my homepage, click the button <a class="btn-beautify button--animated " href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a><br>This is my homepage, click the button <a class="btn-beautify button--animated outline" href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage">
+   Homepage </a><br>This is my homepage, click the button <a class="btn-beautify button--animated outline" href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a><br>This is my homepage, click the button <a class="btn-beautify button--animated larger" href="https://837837.xyz" target="_blank" rel="noopener" title="Homepage">
+  <i class="far fa-hand-point-right fa-fw"></i> Homepage </a></p>
+<div class='tip warning'><p>以上效果均为主题自带，参考文档 <https://demo.jerryc.me/posts/4aa8abbe><p></div>
+
+<h2 id="自定义的样式"><a href="#自定义的样式" class="headerlink" title="自定义的样式"></a>自定义的样式</h2><h3 id="仅展示效果及写法"><a href="#仅展示效果及写法" class="headerlink" title="仅展示效果及写法"></a>仅展示效果及写法</h3><p>如何自定义参考之前的文章<a href="https://xiabor.com/6ea5.html">Hexo 写文章的一些小技巧</a></p>
+<div class="tabs" id="块级"><ul class="nav-tabs"><li class="tab"><a href="#块级-1">效果演示</a></li><li class="tab"><a href="#块级-2">食用方法</a></li></ul><div class="tab-contents"><div class="tab-item-content" id="块级-1"><p><span id="inline-yellow">黄色色块</span><br><span id="inline-green">绿色色块</span><br><span id="inline-grey">灰色色块</span><br><span id="inline-blue">蓝色色块</span></p>
+<p id="div-border-left-red">左边框红色块级</p>
+
+<p id="div-border-right-red">右边框红色块级</p>
+
+<p id="div-border-top-blue">上边框蓝色块级</p><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="块级-2"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;span id&#x3D;&quot;inline-yellow&quot;&gt;黄色色块&lt;&#x2F;span&gt;</span><br><span class="line">&lt;span id&#x3D;&quot;inline-green&quot;&gt;绿色色块&lt;&#x2F;span&gt;</span><br><span class="line">&lt;span id&#x3D;&quot;inline-grey&quot;&gt;灰色色块&lt;&#x2F;span&gt;</span><br><span class="line">&lt;span id&#x3D;&quot;inline-blue&quot;&gt;蓝色色块&lt;&#x2F;span&gt;</span><br><span class="line"></span><br><span class="line">&lt;p id&#x3D;&quot;div-border-left-red&quot;&gt;左边框红色块级&lt;&#x2F;p&gt;</span><br><span class="line"></span><br><span class="line">&lt;p id&#x3D;&quot;div-border-right-red&quot;&gt;右边框红色块级&lt;&#x2F;p&gt;</span><br><span class="line"></span><br><span class="line">&lt;p id&#x3D;&quot;div-border-top-blue&quot;&gt;上边框蓝色块级&lt;&#x2F;p&gt;</span><br></pre></td></tr></table></figure><button class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<p id="div-border-top-blue">明天再继续扒群友的样式，晚安</p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:10294370@qq.com">雪曦</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://xiabor.com/style.html">https://xiabor.com/style.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://xiabor.com" target="_blank">Xuexi's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/img/post.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><button class="reward-button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="post-qr-code__img" src="/img/wechat.jpg" alt="wechat" onclick="window.open('/img/wechat.jpg')"/><div class="post-qr-code__desc">wechat</div></li><li class="reward-item"><img class="post-qr-code__img" src="/img/alipay.jpg" alt="alipay" onclick="window.open('/img/alipay.jpg')"/><div class="post-qr-code__desc">alipay</div></li></ul></div></button></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/ded5.html"><img class="next-cover" data-src="/img/post.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">利用Onemanage搭建个人网盘</div></div></a></div></nav><hr><div id="post-comment"><div class="comment_headling"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script><script>var requestSetting = function (from,set) {
+  var from = from
+  var setting = set.split(',').filter(function(item){
+  return from.indexOf(item) > -1
+  });
+  setting = setting.length == 0 ? from :setting;
+  return setting
+}
+
+var guestInfo = requestSetting(['nick','mail','link'],'nick,mail,link')
+var requiredFields = requestSetting(['nick','mail'],'nick,mail')
+let friends = '59b5937bf7bc1a8650b9e209815d4d3a,f836e33cb73b725cafe2756c75b9c844,f11891f63e9e00d708bb806e03499109,c6cfb32a2653854bc1539be94f927206,5ac64e0af5ff014b639852dd0c01c9b1,76388dc540cd1a49b12ea5684b41b40d,ac4376986fcb5a84e17f47b641c50a69,f2d55b29d47e34ef80291eb12a9da2da,627654b92032ee8ecbb3364433914144,73ae47162f3ce2d4dd8cd55b4a9f0554,1c14c74b1ceef57060397e56d3ce8b82,edfdba395b3555fc8087c5b2df3862bc,d221457efed79dd0207f2f055f5ae84e,898a1ce24f258d8b7863ec186021613a,ed3f6f2d0298171ebb836ce95b85c6ad,3e65f610f1de47f2f2eaa384b614daea'.split(',')
+let master = '14983359e7df56a2055c6b47753a66f8'.split(',')
+
+window.valine = new Valine({
+  el:'#vcomment',
+  appId: 'ikEEo5XOYTytaqIUMsLaiisX-gzGzoHsz',
+  appKey: 'CBx5lgfUldUe1i1qBC6m7k0K',
+  placeholder: '人生在世，难免会写错别字，没事儿~',
+  avatar: 'wavatar',
+  meta: guestInfo,
+  pageSize: '10',
+  lang: 'zh-cn',
+  recordIP: false,
+  serverURLs: '',
+  emojiCDN: '',
+  emojiMaps: "",
+  enableQQ: true,
+  requiredFields: requiredFields,
+  master: master,
+  friends: friends,
+  metaPlaceholder: {"nick":"昵称/QQ号(必填)","mail":"邮箱(必填)","link":"网址(https://)"}
+});</script></div></article></main><footer id="footer" style="background-image: url(/img/post.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 <i style="color:#FF6A6A" class="fa fa-heartbeat"></i> 雪曦</div><div class="icp"><a href="http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action" target="_blank" rel="noopener"><img class="icp-icon" src="/img/icp.png"/><span>滇ICP备19006529号</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><button id="readmode" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" title="缩小字体"><i class="fas fa-minus"></i></button><button class="translate_chn_to_cht" id="translateLink" title="简繁转换">简</button><button id="darkmode" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fas fa-comments"></i></a><button class="close" id="mobile-toc-button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="/js/third-party/click_heart.js"></script><script src="https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js"></script><script>document.addEventListener('DOMContentLoaded', function() {
+  pangu.autoSpacingPage()
+})</script><script src="/js/search/local-search.js"></script><script src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/js/hideMobileSidebar.js"></script></body></html>
