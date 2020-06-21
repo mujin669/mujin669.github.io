@@ -2631,6 +2631,7 @@ div.gallery >.fancybox:hover .image-caption,
 div.gallery >p>.fancybox:hover .image-caption {
   opacity: 1;
   transform: translateY(0);
+  position: fixed;
 }
 div.gallery,
 div.gallery >p {
@@ -2814,4 +2815,9 @@ div.videos[col='3'] iframe {
 div.videos[col='4'] .video,
 div.videos[col='4'] iframe {
   width: calc(25% - 2 * 4px);
+}
+
+.img-alt {
+    margin: -0.5rem 0 0.5rem;
+    position: fixed;
 }
