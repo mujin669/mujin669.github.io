@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xiabor.com/style.html</loc>
+    <loc>https://xiabor.com/link/index.html</loc>
     
-    <lastmod>2020-06-21T17:20:46.000Z</lastmod>
+    <lastmod>2020-06-29T06:54:03.448Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiabor.com/categories/index.html</loc>
+    
+    <lastmod>2020-06-29T06:16:17.877Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiabor.com/tags/index.html</loc>
+    
+    <lastmod>2020-06-29T05:48:49.481Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://xiabor.com/Tibet.html</loc>
     
-    <lastmod>2020-06-20T15:46:32.274Z</lastmod>
+    <lastmod>2020-06-28T14:44:58.094Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiabor.com/style.html</loc>
+    
+    <lastmod>2020-06-21T17:20:46.000Z</lastmod>
     
   </url>
   
@@ -156,30 +177,9 @@
   </url>
   
   <url>
-    <loc>https://xiabor.com/link/index.html</loc>
-    
-    <lastmod>2020-04-06T06:08:40.925Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xiabor.com/tags/index.html</loc>
-    
-    <lastmod>2020-03-31T16:21:38.216Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://xiabor.com/archives/index.html</loc>
     
     <lastmod>2020-03-31T16:18:34.884Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xiabor.com/categories/index.html</loc>
-    
-    <lastmod>2020-03-31T16:16:24.424Z</lastmod>
     
   </url>
   
