@@ -2180,12 +2180,9 @@ blockquote footer cite:before {
 }
 #post-comment .comment-head .comment-switch {
   display: inline-block;
-  float: right;
-  margin: 0.1rem auto 0;
-  padding: 0.2rem 0.8rem;
-  width: max-content;
-  border-radius: 8px;
-  background: #f6f8fa;
+}
+#post-comment .comment-head .comment-switch > span {
+  display: none;
 }
 #post-comment .comment-head .comment-switch .first-comment {
   color: #49b1f5;
@@ -3782,9 +3779,9 @@ img {
   margin: 0.4rem 0.4rem 0.4rem 0;
   padding: 0 0.6rem;
   width: fit-content;
-  border: 2px solid #9fefaf;
-  border-radius: 0.3rem;
-  color: $light-black;
+  border: 2px solid #4c4948;
+  border-radius: 0.2rem;
+  color: #4c4948;
   text-decoration: overline;
   font-size: 14px;
   cursor: pointer;
@@ -5626,9 +5623,6 @@ blockquote.pullquote.right {
 }
 [data-theme='dark'] #mobile-sidebar #mobile-sidebar-menus a {
   color: rgba(255,255,255,0.6) !important;
-}
-[data-theme='dark'] #post-comment .comment-switch {
-  background: #2c2c2c;
 }
 [data-theme='dark'] #post-comment .comment-switch label {
   filter: brightness(0.7);
