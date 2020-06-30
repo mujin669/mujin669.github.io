@@ -2248,8 +2248,15 @@ blockquote footer cite:before {
 #post-comment .comment-wrap .comments-items-2 {
   display: none;
 }
+.flink#article-container .class-name {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
 .flink#article-container .flink-desc {
   margin: 0.2rem 0 0.5rem;
+  text-align: center;
+  font-weight: bold;
 }
 .flink#article-container .flink-list {
   overflow: auto;
