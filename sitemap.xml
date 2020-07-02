@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiabor.com/link/index.html</loc>
+    
+    <lastmod>2020-07-02T06:53:48.394Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://xiabor.com/about/index.html</loc>
     
     <lastmod>2020-07-01T16:08:21.478Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://xiabor.com/eec2.html</loc>
     
     <lastmod>2020-07-01T02:55:00.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xiabor.com/link/index.html</loc>
-    
-    <lastmod>2020-06-30T16:16:02.559Z</lastmod>
     
   </url>
   
