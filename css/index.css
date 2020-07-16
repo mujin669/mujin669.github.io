@@ -2382,14 +2382,10 @@ blockquote footer cite:before {
   content: '';
 }
 #footer-wrap {
-  position: absolute;
+  position: relative;
   padding: 1.2rem 1rem 1.4rem;
   color: #fff;
   text-align: center;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
 }
 #footer-wrap a {
   color: #fff;
