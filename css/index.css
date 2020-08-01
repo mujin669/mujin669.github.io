@@ -2308,7 +2308,7 @@ blockquote footer cite:before {
   line-height: 0.3rem;
 }
 @media screen and (max-width: 768px) {
-  #aside_content div:not(:last-child) {
+  #aside_content div:not(:nth-last-child(-n+2)) {
     display: none;
     font-size: 13px;
   }
@@ -4893,6 +4893,7 @@ p#div-border-bottom-purple {
   background-color: #777;
   color: #fff;
   line-height: 2;
+  border-radius: 6px;
 }
 #article-container .btn-beautify:not(.block) + .btn-beautify:not(.block) {
   margin: 0 0.2rem 1rem;
@@ -5189,6 +5190,7 @@ blockquote.pullquote.right {
   padding: 0.3rem 1rem;
   background: #9fefaf;
   color: #fff !important;
+  border-radius: 5px;
 }
 .hide-inline > .hide-button.open,
 .hide-block > .hide-button.open {

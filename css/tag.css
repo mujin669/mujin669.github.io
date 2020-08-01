@@ -10,12 +10,19 @@
 .hide-inline > .hide-button.open, .hide-block > .hide-button.open {
     display: inline-block;
 }
-/* 页脚框框 */
+/* 鱼塘固定宽度 */
+canvas:not(#ribbon-canvas), #web_bg {
+    margin-bottom: -0.5rem;
+    display: block;
+    width: 100%;
+    height: 160px
+}
+/* 侧栏框框 */
 .github-badge {
     display:inline-block;
     border-radius:4px;
     text-shadow:none;
-    font-size:13px;
+    font-size:13.5px;
     color:#fff;
     line-height:15px;
     margin-bottom:5px;
