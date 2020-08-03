@@ -2613,6 +2613,7 @@ blockquote footer cite:before {
 }
 #page-header.not-index-bg {
   height: 20rem;
+  border-radius: 8px;
 }
 #page-header #page_site-info {
   position: absolute;
@@ -2622,6 +2623,10 @@ blockquote footer cite:before {
 }
 #page-header.post-bg {
   height: 20rem;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 #page-header.post-bg:before {
   position: absolute;
@@ -2629,6 +2634,7 @@ blockquote footer cite:before {
   left: 0;
   display: block;
   width: 100%;
+  border-radius: 8px;
   height: 100%;
   background-color: rgba(0,0,0,0.5);
   content: '';
