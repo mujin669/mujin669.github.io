@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MuJin&#39;s Blog</title>
+  <icon>https://xiabor.com/favicon.png</icon>
+  <subtitle>君浅吟，叹落笔</subtitle>
+  <link href="https://xiabor.com/atom.xml" rel="self"/>
+  
+  <link href="https://xiabor.com/"/>
+  <updated>2020-08-03T13:22:43.464Z</updated>
+  <id>https://xiabor.com/</id>
+  
+  <author>
+    <name>木槿</name>
+    <email>10294370@qq.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>new PC</title>
+    <link href="https://xiabor.com/ee3a.html"/>
+    <id>https://xiabor.com/ee3a.html</id>
+    <published>2020-07-22T14:30:27.000Z</published>
+    <updated>2020-08-03T13:22:43.464Z</updated>
+    
+    
+    <summary type="html">新电脑到手了，记录一些基本配置和数据迁移技巧</summary>
+    
+    
+    
+    <category term="康姆piu特" scheme="https://xiabor.com/categories/%E5%BA%B7%E5%A7%86piu%E7%89%B9/"/>
+    
+    
+    <category term="skill" scheme="https://xiabor.com/tags/skill/"/>
+    
+    <category term="Windows10" scheme="https://xiabor.com/tags/Windows10/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020年中总结</title>
+    <link href="https://xiabor.com/eec2.html"/>
+    <id>https://xiabor.com/eec2.html</id>
+    <published>2020-07-01T00:51:14.000Z</published>
+    <updated>2020-07-05T01:41:47.008Z</updated>
+    
+    
+    <summary type="html">think independently</summary>
+    
+    
+    
+    <category term="君浅吟" scheme="https://xiabor.com/categories/%E5%90%9B%E6%B5%85%E5%90%9F/"/>
+    
+    
+    <category term="thinking" scheme="https://xiabor.com/tags/thinking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>各种样式的食用方法</title>
+    <link href="https://xiabor.com/style.html"/>
+    <id>https://xiabor.com/style.html</id>
+    <published>2020-06-19T07:26:33.000Z</published>
+    <updated>2020-06-21T17:20:46.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://xiabor.com/categories/Hexo/"/>
+    
+    
+    <category term="Markdown" scheme="https://xiabor.com/tags/Markdown/"/>
+    
+    <category term="style" scheme="https://xiabor.com/tags/style/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用Onemanage搭建个人网盘</title>
+    <link href="https://xiabor.com/ded5.html"/>
+    <id>https://xiabor.com/ded5.html</id>
+    <published>2020-06-12T01:17:52.000Z</published>
+    <updated>2020-08-03T09:30:46.330Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="花里胡哨" scheme="https://xiabor.com/categories/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/"/>
+    
+    
+    <category term="Onedrive" scheme="https://xiabor.com/tags/Onedrive/"/>
+    
+    <category term="云函数" scheme="https://xiabor.com/tags/%E4%BA%91%E5%87%BD%E6%95%B0/"/>
+    
+    <category term="个人网盘" scheme="https://xiabor.com/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo大结局</title>
+    <link href="https://xiabor.com/714f.html"/>
+    <id>https://xiabor.com/714f.html</id>
+    <published>2020-04-21T03:34:54.000Z</published>
+    <updated>2020-08-08T11:19:20.102Z</updated>
+    
+    
+    <summary type="html">折腾Hexo的最后一篇总结，主要有页面如何跳过渲染、永久链接......等</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://xiabor.com/categories/Hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://xiabor.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Butterfly主题更新总结</title>
+    <link href="https://xiabor.com/4215.html"/>
+    <id>https://xiabor.com/4215.html</id>
+    <published>2020-03-29T11:45:11.000Z</published>
+    <updated>2020-06-29T14:18:32.920Z</updated>
+    
+    
+    <summary type="html">版本更新太快了，忍不住放弃以前的自定义修改，重新安装部署，这里简单记录一下改动历史，方便后续重装。</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://xiabor.com/categories/Hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://xiabor.com/tags/hexo/"/>
+    
+    <category term="butterfly" scheme="https://xiabor.com/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客部署至服务器</title>
+    <link href="https://xiabor.com/34c7.html"/>
+    <id>https://xiabor.com/34c7.html</id>
+    <published>2020-02-24T08:49:16.000Z</published>
+    <updated>2020-06-18T23:45:10.278Z</updated>
+    
+    
+    <summary type="html">记录一下hexo博客部署至阿里云服务器</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://xiabor.com/categories/Hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://xiabor.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最长的春节</title>
+    <link href="https://xiabor.com/d090.html"/>
+    <id>https://xiabor.com/d090.html</id>
+    <published>2020-01-21T12:50:32.000Z</published>
+    <updated>2020-06-18T23:45:10.305Z</updated>
+    
+    
+    <summary type="html">要知道像2020这样ABAB的年份，每隔101年才会出现一次，比一个世纪还要长，很荣幸能与你度过这样的一年，那么，新年快乐，祝你鼠年大吉、鼠你最撩、鼠你最顺、鼠你最美。</summary>
+    
+    
+    
+    <category term="花里胡哨" scheme="https://xiabor.com/categories/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/"/>
+    
+    
+    <category term="story" scheme="https://xiabor.com/tags/story/"/>
+    
+    <category term="Spring Fesival" scheme="https://xiabor.com/tags/Spring-Fesival/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo写文章的一些小技巧</title>
+    <link href="https://xiabor.com/6ea5.html"/>
+    <id>https://xiabor.com/6ea5.html</id>
+    <published>2019-12-31T02:01:15.000Z</published>
+    <updated>2020-06-18T23:45:10.349Z</updated>
+    
+    
+    <summary type="html">分享一些写文章常用又花里胡哨的小技巧，让你在写文章的时候方便参考。主要有标签外挂、文字色块、字体样式、文字上标下标等。</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://xiabor.com/categories/Hexo/"/>
+    
+    
+    <category term="Markdown" scheme="https://xiabor.com/tags/Markdown/"/>
+    
+    <category term="Hexo" scheme="https://xiabor.com/tags/Hexo/"/>
+    
+    <category term="skill" scheme="https://xiabor.com/tags/skill/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>西藏徒步之旅</title>
+    <link href="https://xiabor.com/Tibet.html"/>
+    <id>https://xiabor.com/Tibet.html</id>
+    <published>2019-12-30T02:44:34.000Z</published>
+    <updated>2020-07-31T03:48:24.832Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="旅行游记" scheme="https://xiabor.com/categories/%E6%97%85%E8%A1%8C%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+    <category term="Tibet" scheme="https://xiabor.com/tags/Tibet/"/>
+    
+    <category term="travel" scheme="https://xiabor.com/tags/travel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Valine Admin 邮件回复提醒</title>
+    <link href="https://xiabor.com/valine-admin.html"/>
+    <id>https://xiabor.com/valine-admin.html</id>
+    <published>2019-12-28T14:05:26.000Z</published>
+    <updated>2020-06-19T06:24:09.146Z</updated>
+    
+    
+    <summary type="html">由于邮件提醒功能使用的Leancloud的密码重置邮件提醒，只能传递昵称、邮箱两个属性，所以邮件提醒链接无法直达指定文章页。对Valine自带的邮件提醒不满意，可以使用更完善的第三方邮件提醒。</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://xiabor.com/categories/Hexo/"/>
+    
+    
+    <category term="valine" scheme="https://xiabor.com/tags/valine/"/>
+    
+    <category term="Email" scheme="https://xiabor.com/tags/Email/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iPad与Windows传输文件的最佳姿势</title>
+    <link href="https://xiabor.com/1023.html"/>
+    <id>https://xiabor.com/1023.html</id>
+    <published>2019-12-19T10:39:54.000Z</published>
+    <updated>2020-06-18T23:45:10.299Z</updated>
+    
+    
+    <summary type="html">冬天到了，好想躺在床上用iPad看移动硬盘的文件，只有Pro支持拓展钨，传输文件又需要iTunes，发现了一个Windows与iOS13之间无线传输的最佳姿势。</summary>
+    
+    
+    
+    <category term="方法技巧" scheme="https://xiabor.com/categories/%E6%96%B9%E6%B3%95%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="skill" scheme="https://xiabor.com/tags/skill/"/>
+    
+    <category term="iPad" scheme="https://xiabor.com/tags/iPad/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo遇到的那些坑</title>
+    <link href="https://xiabor.com/5b7b.html"/>
+    <id>https://xiabor.com/5b7b.html</id>
+    <published>2019-12-07T12:55:13.000Z</published>
+    <updated>2020-06-18T23:45:10.320Z</updated>
+    
+    
+    <summary type="html">搭建博客折腾了不少时间，总结一些Hexo搭建所遇到的坑。主要有搭建、部署报错、各种报错、主题折腾史等</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://xiabor.com/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://xiabor.com/tags/Hexo/"/>
+    
+    <category term="Blog" scheme="https://xiabor.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的警察故事</title>
+    <link href="https://xiabor.com/ac7f.html"/>
+    <id>https://xiabor.com/ac7f.html</id>
+    <published>2019-06-26T14:15:53.000Z</published>
+    <updated>2020-06-18T23:45:10.324Z</updated>
+    
+    
+    <summary type="html">青春有很多样子，很庆幸我的青春有穿警服的样子，曾经我也是一名警察。敬礼∠(°ゝ°)</summary>
+    
+    
+    
+    <category term="成长历程" scheme="https://xiabor.com/categories/%E6%88%90%E9%95%BF%E5%8E%86%E7%A8%8B/"/>
+    
+    
+    <category term="police" scheme="https://xiabor.com/tags/police/"/>
+    
+    <category term="story" scheme="https://xiabor.com/tags/story/"/>
+    
+    <category term="growth" scheme="https://xiabor.com/tags/growth/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown笔记</title>
+    <link href="https://xiabor.com/7399.html"/>
+    <id>https://xiabor.com/7399.html</id>
+    <published>2019-05-14T15:32:52.000Z</published>
+    <updated>2020-06-18T23:45:10.315Z</updated>
+    
+    
+    <summary type="html">这个至今没有中文译名的书写工具，作为比特世界的笔，自被发明之初就随着博客发展的浪潮传向互联网的每一片大陆。不过更多的人或胆怯于它陌生的使用方式，或不屑于它复杂的标记字符，始终没有领略这一工具的简便和优雅。Markdown是一种轻量级的纯文本标记语言，它的优点很多，目前也被广泛应用于写作、撰稿、简历、公众号图文、事项清单。看到这里请不要被标记、语言所迷惑，它的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://xiabor.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Markdown" scheme="https://xiabor.com/tags/Markdown/"/>
+    
+    <category term="knowledge" scheme="https://xiabor.com/tags/knowledge/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>My first article that write by MarkDone</title>
+    <link href="https://xiabor.com/undefined.html"/>
+    <id>https://xiabor.com/undefined.html</id>
+    <published>2019-05-10T05:51:44.000Z</published>
+    <updated>2019-12-11T13:47:08.075Z</updated>
+    
+    
+    <summary type="html">This is my first article that wrote by MarkDone</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://xiabor.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Markdown" scheme="https://xiabor.com/tags/Markdown/"/>
+    
+    <category term="knowledge" scheme="https://xiabor.com/tags/knowledge/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://xiabor.com/3eeb.html"/>
+    <id>https://xiabor.com/3eeb.html</id>
+    <published>2018-12-14T15:32:52.000Z</published>
+    <updated>2020-06-18T23:45:10.213Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
