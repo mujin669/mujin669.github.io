@@ -6,7 +6,7 @@
   <link href="https://xiabor.com/atom.xml" rel="self"/>
   
   <link href="https://xiabor.com/"/>
-  <updated>2020-08-03T13:22:43.464Z</updated>
+  <updated>2020-08-25T14:58:02.828Z</updated>
   <id>https://xiabor.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://xiabor.com/ee3a.html"/>
     <id>https://xiabor.com/ee3a.html</id>
     <published>2020-07-22T14:30:27.000Z</published>
-    <updated>2020-08-03T13:22:43.464Z</updated>
+    <updated>2020-08-25T14:58:02.828Z</updated>
     
     
     <summary type="html">新电脑到手了，记录一些基本配置和数据迁移技巧</summary>
@@ -31,9 +31,9 @@
     <category term="康姆piu特" scheme="https://xiabor.com/categories/%E5%BA%B7%E5%A7%86piu%E7%89%B9/"/>
     
     
-    <category term="Windows10" scheme="https://xiabor.com/tags/Windows10/"/>
-    
     <category term="skill" scheme="https://xiabor.com/tags/skill/"/>
+    
+    <category term="Windows10" scheme="https://xiabor.com/tags/Windows10/"/>
     
   </entry>
   
@@ -61,7 +61,7 @@
     <link href="https://xiabor.com/style.html"/>
     <id>https://xiabor.com/style.html</id>
     <published>2020-06-19T07:26:33.000Z</published>
-    <updated>2020-06-21T17:20:46.000Z</updated>
+    <updated>2020-08-25T15:05:50.249Z</updated>
     
     
       
@@ -209,9 +209,9 @@
     
     <category term="Markdown" scheme="https://xiabor.com/tags/Markdown/"/>
     
-    <category term="skill" scheme="https://xiabor.com/tags/skill/"/>
-    
     <category term="Hexo" scheme="https://xiabor.com/tags/Hexo/"/>
+    
+    <category term="skill" scheme="https://xiabor.com/tags/skill/"/>
     
   </entry>
   
