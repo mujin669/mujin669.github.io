@@ -6,6 +6,81 @@
   fill: currentColor;
   overflow: hidden;
 }
+/*行内小标签样式*/
+#post u {
+    color: #444;
+    text-decoration: none;
+    border-bottom: 1px solid #fe5f58;
+  }
+#post emp {
+    color: #444;
+    border-bottom: 4px dotted #fe5f58;
+  }
+#post wavy {
+    color: #444;
+    -webkit-text-decoration-style: wavy;
+    text-decoration-style: wavy;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    -webkit-text-decoration-color: #fe5f58;
+    text-decoration-color: #fe5f58;
+  }
+#post del, #post s {
+    color: #999;
+    -webkit-text-decoration-color: #999;
+    text-decoration-color: #999;
+}
+#post kbd {
+    color: var(--tab-botton-color);
+    border-radius: 4px;
+    border: 1px solid #d2d2d2;
+    border-bottom-width: 2px;
+    background: var(--tab-button-active-bg);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+#post psw {
+    color: transparent;
+    background: #7f7f7f;
+    border-radius: 2px;
+    transition: all .28s ease;
+    -moz-transition: all .28s ease;
+    -webkit-transition: all .28s ease;
+    -o-transition: all .28s ease;
+  }
+#content-inner {
+    --light_bg_color: rgb(255, 255, 255, 0.2);
+    --dark_bg_color: rgba(18, 18, 18, 0.8);
+}
+[data-theme=light] {
+    --global-bg: #fff;
+    --font-color: #4c4948;
+    --hr-border: #d2ebfd;
+    --hr-before-color: #bfe4fb;
+    --search-bg: #f6f8fa;
+    --search-input-color: #4c4948;
+    --search-result-title: #4c4948;
+    --preloader-bg: #37474f;
+    --preloader-color: #fff;
+    --tab-border-color: #f0f0f0;
+    --tab-botton-bg: #f0f0f0;
+    --tab-botton-color: #1f2d3d;
+    --tab-button-hover-bg: #dcdcdc;
+    --tab-button-active-bg: #fff;
+    --card-bg: #fff;
+    --sidebar-bg: #f6f8fa;
+    --btn-hover-color: #1693c6;
+    --btn-color: #fff;
+    --btn-bg: #23ade5;
+    --text-bg-hover: #23ade5;
+    --light-grey: #eee;
+    --white: #fff;
+    --text-highlight-color: #1f2d3d;
+    --blockquote-color: #6a737d;
+    --blockquote-bg: rgba(73,177,245,0.1);
+    --reward-pop: #f5f5f5;
+    --sidebar-icon-color: #1f2d3d;
+}
 /* tabs夜间模式的背景 */
 [data-theme="dark"] #article-container .tabs > .tab-contents .tab-item-content.active {
   background: #222;

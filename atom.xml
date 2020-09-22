@@ -6,7 +6,7 @@
   <link href="https://xiabor.com/atom.xml" rel="self"/>
   
   <link href="https://xiabor.com/"/>
-  <updated>2020-08-25T14:58:02.828Z</updated>
+  <updated>2020-09-21T13:49:47.924Z</updated>
   <id>https://xiabor.com/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>教资笔记1</title>
+    <link href="https://xiabor.com/e6b3.html"/>
+    <id>https://xiabor.com/e6b3.html</id>
+    <published>2020-09-01T12:43:49.000Z</published>
+    <updated>2020-09-21T13:49:47.924Z</updated>
+    
+    
+    <summary type="html">综合素质笔记</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://xiabor.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="教资" scheme="https://xiabor.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%95%99%E8%B5%84/"/>
+    
+    
+    <category term="教资" scheme="https://xiabor.com/tags/%E6%95%99%E8%B5%84/"/>
+    
+  </entry>
+  
+  <entry>
     <title>new PC</title>
     <link href="https://xiabor.com/ee3a.html"/>
     <id>https://xiabor.com/ee3a.html</id>
     <published>2020-07-22T14:30:27.000Z</published>
-    <updated>2020-08-25T14:58:02.828Z</updated>
+    <updated>2020-09-06T04:50:10.767Z</updated>
     
     
     <summary type="html">新电脑到手了，记录一些基本配置和数据迁移技巧</summary>
@@ -117,7 +138,7 @@
     <link href="https://xiabor.com/714f.html"/>
     <id>https://xiabor.com/714f.html</id>
     <published>2020-04-21T03:34:54.000Z</published>
-    <updated>2020-08-08T11:19:20.102Z</updated>
+    <updated>2020-09-11T15:52:03.513Z</updated>
     
     
     <summary type="html">折腾Hexo的最后一篇总结，主要有页面如何跳过渲染、永久链接......等</summary>
