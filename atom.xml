@@ -6,7 +6,7 @@
   <link href="https://xiabor.com/atom.xml" rel="self"/>
   
   <link href="https://xiabor.com/"/>
-  <updated>2020-09-21T13:49:47.924Z</updated>
+  <updated>2020-10-13T04:36:31.738Z</updated>
   <id>https://xiabor.com/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="https://xiabor.com/e6b3.html"/>
     <id>https://xiabor.com/e6b3.html</id>
     <published>2020-09-01T12:43:49.000Z</published>
-    <updated>2020-09-21T13:49:47.924Z</updated>
+    <updated>2020-10-13T04:36:31.738Z</updated>
     
     
-    <summary type="html">综合素质笔记</summary>
+    <summary type="html">综合素质笔记--职业理念</summary>
     
     
     
@@ -82,7 +82,7 @@
     <link href="https://xiabor.com/style.html"/>
     <id>https://xiabor.com/style.html</id>
     <published>2020-06-19T07:26:33.000Z</published>
-    <updated>2020-08-25T15:05:50.249Z</updated>
+    <updated>2020-10-13T03:31:02.725Z</updated>
     
     
       
@@ -207,9 +207,9 @@
     <category term="花里胡哨" scheme="https://xiabor.com/categories/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/"/>
     
     
-    <category term="Spring Fesival" scheme="https://xiabor.com/tags/Spring-Fesival/"/>
-    
     <category term="story" scheme="https://xiabor.com/tags/story/"/>
+    
+    <category term="Spring Fesival" scheme="https://xiabor.com/tags/Spring-Fesival/"/>
     
   </entry>
   
@@ -341,9 +341,9 @@
     <category term="成长历程" scheme="https://xiabor.com/categories/%E6%88%90%E9%95%BF%E5%8E%86%E7%A8%8B/"/>
     
     
-    <category term="story" scheme="https://xiabor.com/tags/story/"/>
-    
     <category term="police" scheme="https://xiabor.com/tags/police/"/>
+    
+    <category term="story" scheme="https://xiabor.com/tags/story/"/>
     
     <category term="growth" scheme="https://xiabor.com/tags/growth/"/>
     
