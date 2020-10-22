@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">Particle3D=function(material){
+Particle3D=function(material){
 	THREE.Particle.call(this,material);
 	this.velocity=new THREE.Vector3(0,0,0);//速度;
 	this.velocity.rotateX(10);//旋转;
