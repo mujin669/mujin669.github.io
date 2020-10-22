@@ -92,9 +92,86 @@ background:rgba(0,0,0,0.1);
         }
 
         container.appendChild( renderer.domElement );
+
+        document.addEventListener( 'touchstart', onDocumentTouchStart, false );
+        document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+        document.addEventListener( 'touchend', onDocumentTouchEnd, false );
         
         setInterval( loop, 1000 / 60 );
         setInterval( appendHUAJI, 100 );
+    }
+
+    var touchStartX;
+    var touchFlag = 0;//储存当前是否滑动的状态;
+    var touchSensitive = 80;//检测滑动的灵敏度;
+    //var touchStartY;
+    //var touchEndX;
+    //var touchEndY;
+    function onDocumentTouchStart( event ) {
+
+        if ( event.touches.length == 1 ) {
+
+            //event.preventDefault();//取消默认关联动作;
+            touchStartX = 0;
+            touchStartX = event.touches[ 0 ].pageX ;
+            //touchStartY = event.touches[ 0 ].pageY ;
+        }
+    }
+
+
+    function onDocumentTouchMove( event ) {
+
+        if ( event.touches.length == 1 ) {
+            //event.preventDefault();
+            var direction = event.touches[ 0 ].pageX - touchStartX;
+            if (Math.abs(direction) > touchSensitive) {
+                if (direction>0) {touchFlag = 1;}
+                else if (direction<0) {touchFlag = -1;};
+                //changeAndBack(touchFlag);
+            }   
+        }
+    }
+
+    function onDocumentTouchEnd (event) {
+        // if ( event.touches.length == 0 ) {
+        //  event.preventDefault();
+        //  touchEndX = event.touches[ 0 ].pageX ;
+        //  touchEndY = event.touches[ 0 ].pageY ;
+    
+        // }这里存在问题
+        var direction = event.changedTouches[ 0 ].pageX - touchStartX;
+
+        changeAndBack(touchFlag);
+    }
+
+
+    function changeAndBack (touchFlag) {
+        var speedX = 25*touchFlag;
+        touchFlag = 0;
+        for (var i = 0; i < particles.length; i++) {
+            particles[i].velocity=new THREE.Vector3(speedX,-10,0);
+        }
+        var timeOut = setTimeout(";", 800);
+        clearTimeout(timeOut);
+
+        var clearI = setInterval(function () {
+            if (touchFlag) {
+                clearInterval(clearI);
+                return;
+            };
+            speedX*=0.8;
+
+            if (Math.abs(speedX)<=1.5) {
+                speedX=0;
+                clearInterval(clearI);
+            };
+            
+            for (var i = 0; i < particles.length; i++) {
+                particles[i].velocity=new THREE.Vector3(speedX,-10,0);
+            }
+        },100);
+
+
     }
 
     function appendHUAJI()
