@@ -15,8 +15,44 @@
     <atom:link href="https://xiabor.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>君浅吟，叹落笔 木槿部落格 木槿博客</description>
-    <pubDate>Mon, 26 Oct 2020 02:48:28 GMT</pubDate>
+    <pubDate>Mon, 02 Nov 2020 08:49:17 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>关于本站</title>
+      <link>https://xiabor.com/c437.html</link>
+      <guid>https://xiabor.com/c437.html</guid>
+      <pubDate>Sun, 01 Nov 2020 13:44:11 GMT</pubDate>
+      
+      <description>欢迎来到木槿部落格。</description>
+      
+      
+      
+      
+      
+      
+      <comments>https://xiabor.com/c437.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>日更励志贴</title>
+      <link>https://xiabor.com/f26f.html</link>
+      <guid>https://xiabor.com/f26f.html</guid>
+      <pubDate>Sun, 01 Nov 2020 11:31:08 GMT</pubDate>
+      
+      <description>挖个坑，坚持日更30天，挑战成功就加入仰慕已久的007.</description>
+      
+      
+      
+      
+      <category domain="https://xiabor.com/categories/%E5%90%9B%E6%B5%85%E5%90%9F/">君浅吟</category>
+      
+      
+      
+      <comments>https://xiabor.com/f26f.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>video-test</title>
@@ -417,7 +453,7 @@
       
       
       
-      <category domain="https://xiabor.com/categories/%E6%96%B9%E6%B3%95%E6%8A%80%E5%B7%A7/">方法技巧</category>
+      <category domain="https://xiabor.com/categories/%E9%9B%95%E8%99%AB%E5%B0%8F%E6%8A%80/">雕虫小技</category>
       
       
       <category domain="https://xiabor.com/tags/skill/">skill</category>

@@ -4015,7 +4015,8 @@ img {
   margin: 0 auto 0.8rem;
 }
 #article-container p {
-  margin: 0 0 0.8rem;
+  margin: 0 0 0.5rem;
+  padding-left: 0.5rem;
 }
 #article-container iframe {
   margin: 0 0 1rem;
