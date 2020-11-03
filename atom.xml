@@ -6,7 +6,7 @@
   <link href="https://xiabor.com/atom.xml" rel="self"/>
   
   <link href="https://xiabor.com/"/>
-  <updated>2020-11-02T14:52:18.652Z</updated>
+  <updated>2020-11-03T13:40:26.781Z</updated>
   <id>https://xiabor.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>QQkapian</title>
+    <link href="https://xiabor.com/8653.html"/>
+    <id>https://xiabor.com/8653.html</id>
+    <published>2020-11-03T13:35:10.000Z</published>
+    <updated>2020-11-03T13:40:26.781Z</updated>
+    
+    
+    <summary type="html">几个月以来的企鹅卡片类消息的code合集</summary>
+    
+    
+    
+    <category term="雕虫小技" scheme="https://xiabor.com/categories/%E9%9B%95%E8%99%AB%E5%B0%8F%E6%8A%80/"/>
+    
+    
+    <category term="XML" scheme="https://xiabor.com/tags/XML/"/>
+    
+    <category term="Json" scheme="https://xiabor.com/tags/Json/"/>
+    
+  </entry>
   
   <entry>
     <title>vocabulary1102</title>
@@ -183,27 +204,6 @@
   </entry>
   
   <entry>
-    <title>Tibet</title>
-    <link href="https://xiabor.com/f9a6.html"/>
-    <id>https://xiabor.com/f9a6.html</id>
-    <published>2020-07-25T11:42:35.580Z</published>
-    <updated>2020-11-02T15:20:28.794Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>new PC</title>
     <link href="https://xiabor.com/ee3a.html"/>
     <id>https://xiabor.com/ee3a.html</id>
@@ -218,9 +218,9 @@
     <category term="康姆piu特" scheme="https://xiabor.com/categories/%E5%BA%B7%E5%A7%86piu%E7%89%B9/"/>
     
     
-    <category term="Windows10" scheme="https://xiabor.com/tags/Windows10/"/>
-    
     <category term="skill" scheme="https://xiabor.com/tags/skill/"/>
+    
+    <category term="Windows10" scheme="https://xiabor.com/tags/Windows10/"/>
     
   </entry>
   
@@ -395,6 +395,33 @@
     <category term="Hexo" scheme="https://xiabor.com/tags/Hexo/"/>
     
     <category term="skill" scheme="https://xiabor.com/tags/skill/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>西藏徒步之旅</title>
+    <link href="https://xiabor.com/Tibet.html"/>
+    <id>https://xiabor.com/Tibet.html</id>
+    <published>2019-12-30T02:44:34.000Z</published>
+    <updated>2020-11-03T12:42:51.921Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="旅行游记" scheme="https://xiabor.com/categories/%E6%97%85%E8%A1%8C%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+    <category term="Tibet" scheme="https://xiabor.com/tags/Tibet/"/>
+    
+    <category term="travel" scheme="https://xiabor.com/tags/travel/"/>
     
   </entry>
   

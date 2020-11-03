@@ -15,8 +15,31 @@
     <atom:link href="https://xiabor.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>君浅吟，叹落笔 木槿部落格 木槿博客</description>
-    <pubDate>Mon, 02 Nov 2020 14:52:18 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2020 13:40:26 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>QQkapian</title>
+      <link>https://xiabor.com/8653.html</link>
+      <guid>https://xiabor.com/8653.html</guid>
+      <pubDate>Tue, 03 Nov 2020 13:35:10 GMT</pubDate>
+      
+      <description>几个月以来的企鹅卡片类消息的code合集</description>
+      
+      
+      
+      
+      <category domain="https://xiabor.com/categories/%E9%9B%95%E8%99%AB%E5%B0%8F%E6%8A%80/">雕虫小技</category>
+      
+      
+      <category domain="https://xiabor.com/tags/XML/">XML</category>
+      
+      <category domain="https://xiabor.com/tags/Json/">Json</category>
+      
+      
+      <comments>https://xiabor.com/8653.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>vocabulary1102</title>
@@ -201,29 +224,6 @@
     </item>
     
     <item>
-      <title>Tibet</title>
-      <link>https://xiabor.com/f9a6.html</link>
-      <guid>https://xiabor.com/f9a6.html</guid>
-      <pubDate>Sat, 25 Jul 2020 11:42:35 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</description>
-          
-        
-      
-      
-      
-      
-      
-      
-      <comments>https://xiabor.com/f9a6.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>new PC</title>
       <link>https://xiabor.com/ee3a.html</link>
       <guid>https://xiabor.com/ee3a.html</guid>
@@ -237,9 +237,9 @@
       <category domain="https://xiabor.com/categories/%E5%BA%B7%E5%A7%86piu%E7%89%B9/">康姆piu特</category>
       
       
-      <category domain="https://xiabor.com/tags/Windows10/">Windows10</category>
-      
       <category domain="https://xiabor.com/tags/skill/">skill</category>
+      
+      <category domain="https://xiabor.com/tags/Windows10/">Windows10</category>
       
       
       <comments>https://xiabor.com/ee3a.html#disqus_thread</comments>
@@ -433,6 +433,35 @@
       
       
       <comments>https://xiabor.com/6ea5.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>西藏徒步之旅</title>
+      <link>https://xiabor.com/Tibet.html</link>
+      <guid>https://xiabor.com/Tibet.html</guid>
+      <pubDate>Mon, 30 Dec 2019 02:44:34 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://xiabor.com/categories/%E6%97%85%E8%A1%8C%E6%B8%B8%E8%AE%B0/">旅行游记</category>
+      
+      
+      <category domain="https://xiabor.com/tags/Tibet/">Tibet</category>
+      
+      <category domain="https://xiabor.com/tags/travel/">travel</category>
+      
+      
+      <comments>https://xiabor.com/Tibet.html#disqus_thread</comments>
       
     </item>
     
