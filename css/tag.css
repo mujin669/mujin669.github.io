@@ -6,6 +6,16 @@
   fill: currentColor;
   overflow: hidden;
 }
+#post rainbow-text, rainbow-text * {
+    padding-top: 3px;
+    background-image: linear-gradient( to right, orangered, orange, gold, lightgreen, cyan, dodgerblue, mediumpurple, hotpink, orangered);
+    background-size: 20vw;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-animation: rainbowan 60s linear infinite;
+    animation: rainbowan 60s linear infinite;
+}
 /*行内小标签样式*/
 #post u {
     color: #444;

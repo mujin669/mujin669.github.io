@@ -6,7 +6,7 @@
   <link href="https://xiabor.com/atom.xml" rel="self"/>
   
   <link href="https://xiabor.com/"/>
-  <updated>2020-11-04T15:07:53.580Z</updated>
+  <updated>2020-11-12T01:03:33.181Z</updated>
   <id>https://xiabor.com/</id>
   
   <author>
@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>VSC-plugin</title>
-    <link href="https://xiabor.com/187f.html"/>
-    <id>https://xiabor.com/187f.html</id>
-    <published>2020-11-04T01:51:14.000Z</published>
-    <updated>2020-11-04T15:07:53.580Z</updated>
+    <title>day00</title>
+    <link href="https://xiabor.com/f9ab.html"/>
+    <id>https://xiabor.com/f9ab.html</id>
+    <published>2020-11-05T15:11:01.000Z</published>
+    <updated>2020-11-12T01:03:33.181Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;link rel=&quot;stylesheet&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -38,11 +38,30 @@
   </entry>
   
   <entry>
-    <title>QQkapian</title>
+    <title>本站自用的VSCode自动补全插件</title>
+    <link href="https://xiabor.com/187f.html"/>
+    <id>https://xiabor.com/187f.html</id>
+    <published>2020-11-04T01:51:14.000Z</published>
+    <updated>2020-11-12T02:11:38.303Z</updated>
+    
+    
+    <summary type="html">通过vsce打包自动补全插件，回归markdown的书写理念，不再为样式消耗时间。</summary>
+    
+    
+    
+    
+    <category term="npm" scheme="https://xiabor.com/tags/npm/"/>
+    
+    <category term="plugin" scheme="https://xiabor.com/tags/plugin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>企鹅卡片合集</title>
     <link href="https://xiabor.com/8653.html"/>
     <id>https://xiabor.com/8653.html</id>
     <published>2020-11-03T13:35:10.000Z</published>
-    <updated>2020-11-05T05:25:04.035Z</updated>
+    <updated>2020-11-05T15:11:36.779Z</updated>
     
     
     <summary type="html">几个月以来的企鹅卡片类消息的code合集</summary>
@@ -63,14 +82,14 @@
     <link href="https://xiabor.com/c34f.html"/>
     <id>https://xiabor.com/c34f.html</id>
     <published>2020-11-02T14:51:27.000Z</published>
-    <updated>2020-11-02T14:52:18.652Z</updated>
+    <updated>2020-11-12T02:39:46.848Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;link rel=&quot;stylesheet&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -84,7 +103,7 @@
     <link href="https://xiabor.com/c437.html"/>
     <id>https://xiabor.com/c437.html</id>
     <published>2020-11-01T13:44:11.000Z</published>
-    <updated>2020-11-02T14:46:37.608Z</updated>
+    <updated>2020-11-12T03:17:24.707Z</updated>
     
     
     <summary type="html">欢迎来到木槿部落格。</summary>
@@ -103,7 +122,7 @@
     <link href="https://xiabor.com/f26f.html"/>
     <id>https://xiabor.com/f26f.html</id>
     <published>2020-11-01T11:31:08.000Z</published>
-    <updated>2020-11-01T13:43:43.458Z</updated>
+    <updated>2020-11-12T02:21:55.165Z</updated>
     
     
     <summary type="html">挖个坑，坚持日更30天，挑战成功就加入仰慕已久的007.</summary>
@@ -127,7 +146,7 @@
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;link rel=&quot;stylesheet&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -190,7 +209,7 @@
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;link rel=&quot;stylesheet&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -239,9 +258,9 @@
     <category term="康姆piu特" scheme="https://xiabor.com/categories/%E5%BA%B7%E5%A7%86piu%E7%89%B9/"/>
     
     
-    <category term="Windows10" scheme="https://xiabor.com/tags/Windows10/"/>
-    
     <category term="skill" scheme="https://xiabor.com/tags/skill/"/>
+    
+    <category term="Windows10" scheme="https://xiabor.com/tags/Windows10/"/>
     
   </entry>
   
@@ -276,7 +295,7 @@
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;link rel=&quot;stylesheet&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -303,7 +322,7 @@
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;link rel=&quot;stylesheet&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -431,7 +450,7 @@
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;link rel=&quot;stylesheet&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -586,7 +605,7 @@
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;link rel=&quot;stylesheet&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
